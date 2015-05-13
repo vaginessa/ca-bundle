@@ -4,20 +4,66 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CA trust manager</title>
+
+    <link rel="stylesheet" href="css/pure-min.css">
+    <style>
+      body {
+        font-size: 85%;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      table span {
+        color: #999;
+        display: inline-block;
+        font-size: 80%;
+        padding: 6px 0 0 15px;
+      }
+
+      .toggleButton {
+        color: #000;
+        text-decoration: none;
+        padding: 0 2px;
+      }
+
+        .toggleButton.on {
+          color: #3c0;
+        }
+
+        .toggleButton.off {
+          color: #f00;
+        }
+    </style>
+
     <script src="js/handlebars-v3.0.3.js"></script>
     <script type="application/javascript;version=1.7" src="js/main.js"></script>
 
     <script id="certificate-template" type="text/x-handlebars-template">
-      <tr>
-        <td>{{nickname}}: {{name}}</td>
+      <tr data-nickname="{{nickname}}">
+        <td>
+          {{tableTitle}}<br>
+          <span>{{issuerName}}</span>
+        </td>
+        <td>{{tokenName}}</td>
+        <td>
+          <a class="toggleButton" href="#none" data-bit="none">[None]</a>
+          <a class="toggleButton on" href="#ssl" data-bit="ssl">[SSL]</a>
+          <a class="toggleButton off" href="#mail" data-bit="mail">[MAIL]</a>
+          <a class="toggleButton on" href="#objsign" data-bit="objsign">[OBJSIGN]</a>
+          <a class="toggleButton" href="#all" data-bit="all">[All]</a>
+        </td>
       </tr>
     </script>
   </head>
   <body>
-    <table>
+    <table class="pure-table pure-table-striped">
       <thead>
         <tr>
-          <th>Certificate Name</th>
+          <th>Common Name</th>
+          <th>Security Device</th>
+          <th style="width: 240px">Trust Bits</th>
         </tr>
       </thead>
       <tbody></tbody>
