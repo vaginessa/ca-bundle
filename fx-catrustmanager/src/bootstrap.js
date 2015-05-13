@@ -18,7 +18,7 @@ let optionObserver = {
   },
 
   openTrustman: function(event) {
-    win.openUILinkIn("chrome://catrustmanager/content/catrustmanager.html", "tab");
+    win.openUILinkIn("chrome://catrustmanager/content/index.html", "tab");
   }
 }
 
