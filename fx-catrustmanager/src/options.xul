@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE catrustmanager-options SYSTEM "chrome://catrustmanager/locale/options.dtd">
-<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting type="control" title="">
-    <button id="open-catrustmanager" label="&catrustmanager.open;" />
-  </setting>
-</vbox>
