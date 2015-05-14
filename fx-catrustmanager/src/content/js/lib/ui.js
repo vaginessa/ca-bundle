@@ -21,10 +21,10 @@ class UI {
     for(let toggler of row.querySelectorAll(".toggleButton")) {
       toggler.addEventListener("click", (e) => {
         let certNickname = e.target.parentNode.parentNode.dataset.nickname,
-            cert = this._certs.getCertByNickname(certNickname),
+            cert = this._certs.getEnrichedCertObject(this._certs.getCertByNickname(certNickname)),
             bit = e.target.dataset.bit;
         e.preventDefault();
-        console.dir({certNickname, cert, bit});
+        console.dir({cert, bit, trustValue: cert.trustValue});
       });
     }
 

@@ -33,6 +33,10 @@ class CACertificates {
       objsign: this._certDB.isCertTrusted(certWrapper, certWrapper.certType, Ci.nsIX509CertDB.TRUSTED_OBJSIGN)
     };
 
+    cert.trustValue = (cert.trustBits.ssl ? this._certDB.TRUSTED_SSL : 0)
+                      | (cert.trustBits.email ? this._certDB.TRUSTED_EMAIL : 0)
+                      | (cert.trustBits.objsign ? this._certDB.TRUSTED_OBJSIGN : 0);
+
     cert.tableTitle = [
       cert.issuerCommonName || cert.issuerOrganizationUnit || cert.organization,
       cert.commonName
