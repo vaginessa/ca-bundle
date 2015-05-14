@@ -4,11 +4,19 @@ class UI {
   constructor(certs) {
     this._certs = certs;
     this._certificateRowTemplate = Handlebars.compile(document.getElementById("certificate-row-template").innerHTML);
+
+    document.querySelector("#filter").addEventListener("submit", (e) => {
+      this.populateTable();
+      e.preventDefault();
+    });
+
+    document.querySelector("#only-trusted").addEventListener("change", this.populateTable.bind(this));
   }
 
   populateTable() {
     let table = document.querySelector("tbody");
-    this._certs.getCerts().forEach((cert) => {
+    table.innerHTML = "";
+    this._certs.getCerts(document.querySelector("#only-trusted").checked).forEach((cert) => {
       table.appendChild(this.getCertificateRowDOMObject(cert));
     });
   }

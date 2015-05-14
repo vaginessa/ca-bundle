@@ -1,0 +1,41 @@
+body {
+  font-size: 85%;
+}
+
+table {
+  margin-bottom: 50px;
+  width: 100%;
+
+  span {
+    color: #999;
+    display: inline-block;
+    font-size: 80%;
+    padding: 6px 0 0 15px;
+  }
+}
+
+.toggleButton {
+  color: #000;
+  padding: 0 2px;
+  text-decoration: none;
+
+  &.on { color: #3c0; }
+  &.off { color: #f00; }
+}
+
+#functions {
+  background-color: #e0e0e0;
+  bottom: 0;
+  height: 38px;
+  position: fixed;
+  width: 100%;
+
+  form {
+    box-sizing: border-box;
+    padding: 0 1em;
+    width: 50%;
+
+    &#bulk { text-align: right; }
+    &#filter { text-align: left; }
+  }
+}

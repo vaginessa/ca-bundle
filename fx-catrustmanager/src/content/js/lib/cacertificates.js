@@ -6,10 +6,17 @@ class CACertificates {
     this._certDB.QueryInterface(Ci.nsIX509CertDB);
   }
 
-  getCerts() {
+  getCerts(onlyTrusted = false) {
     let enumerator = this._certDB.getCerts().getEnumerator(), certs = [];
     while(enumerator.hasMoreElements()) {
-      certs.push(this.getEnrichedCertObject(enumerator.getNext()));
+      if(onlyTrusted) {
+        let cert = this.getEnrichedCertObject(enumerator.getNext());
+        if(!!cert.trustValue) {
+          certs.push(cert);
+        }
+      } else {
+        certs.push(this.getEnrichedCertObject(enumerator.getNext()));
+      }
     }
     certs.sort(function(a, b) {
       if (a.tableTitle.toLowerCase() > b.tableTitle.toLowerCase()) { return 1; }

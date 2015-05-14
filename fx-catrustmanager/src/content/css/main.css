@@ -1,28 +1,35 @@
 body {
-  font-size: 85%;
-}
+  font-size: 85%; }
 
 table {
-  width: 100%;
-}
-
-table span {
-  color: #999;
-  display: inline-block;
-  font-size: 80%;
-  padding: 6px 0 0 15px;
-}
+  margin-bottom: 50px;
+  width: 100%; }
+  table span {
+    color: #999;
+    display: inline-block;
+    font-size: 80%;
+    padding: 6px 0 0 15px; }
 
 .toggleButton {
   color: #000;
-  text-decoration: none;
   padding: 0 2px;
-}
-
+  text-decoration: none; }
   .toggleButton.on {
-    color: #3c0;
-  }
-
+    color: #3c0; }
   .toggleButton.off {
-    color: #f00;
-  }
+    color: #f00; }
+
+#functions {
+  background-color: #e0e0e0;
+  bottom: 0;
+  height: 38px;
+  position: fixed;
+  width: 100%; }
+  #functions form {
+    box-sizing: border-box;
+    padding: 0 1em;
+    width: 50%; }
+    #functions form#bulk {
+      text-align: right; }
+    #functions form#filter {
+      text-align: left; }
