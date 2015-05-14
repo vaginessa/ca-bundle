@@ -11,17 +11,7 @@ class CACertificates {
   getCerts() {
     let enumerator = this._certDB.getCerts().getEnumerator(), certs = [];
     while(enumerator.hasMoreElements()) {
-      let cert = enumerator.getNext();
-      cert.QueryInterface(Ci.nsIX509Cert);
-      cert = Object.create(cert);
-
-      cert.tableTitle = [
-        cert.issuerCommonName || cert.issuerOrganizationUnit || cert.organization,
-        cert.commonName
-      ].filter(function(value) { return value; })
-       .join(" - ");
-
-       certs.push(cert);
+      certs.push(this.getEnrichedCertObject(enumerator.getNext()));
     }
     certs.sort(function(a, b) {
       if (a.tableTitle.toLowerCase() > b.tableTitle.toLowerCase()) { return 1; }
@@ -34,37 +24,62 @@ class CACertificates {
   getCertByNickname(nickname) {
     return this._certDB.findCertByNickname(null, nickname);
   }
+
+  getEnrichedCertObject(certWrapper) {
+    let cert = Object.create(certWrapper);
+    certWrapper.QueryInterface(Ci.nsIX509Cert);
+
+    cert.trustBits = {
+      ssl: this._certDB.isCertTrusted(certWrapper, certWrapper.certType, Ci.nsIX509CertDB.TRUSTED_SSL),
+      email: this._certDB.isCertTrusted(certWrapper, certWrapper.certType, Ci.nsIX509CertDB.TRUSTED_EMAIL),
+      objsign: this._certDB.isCertTrusted(certWrapper, certWrapper.certType, Ci.nsIX509CertDB.TRUSTED_OBJSIGN)
+    };
+
+    cert.tableTitle = [
+      cert.issuerCommonName || cert.issuerOrganizationUnit || cert.organization,
+      cert.commonName
+    ].filter(function(value) { return value; })
+     .join(" - ");
+
+    return cert;
+  }
 }
 
 class UI {
   constructor(certs) {
     this._certs = certs;
+    this._certificateRowTemplate = Handlebars.compile(document.getElementById("certificate-row-template").innerHTML);
   }
 
   populateTable() {
-    let template = Handlebars.compile(document.getElementById("certificate-template").innerHTML),
-        tableHtml = "";
-
-    this._certs.getCerts().forEach(function(cert) {
-      tableHtml += template(cert);
+    let table = document.querySelector("tbody");
+    this._certs.getCerts().forEach((cert) => {
+      table.appendChild(this.getCertificateRowDOMObject(cert));
     });
-    document.querySelector("tbody").innerHTML = tableHtml;
+  }
 
-    // TODO replace me with something useful.
-    for(let toggler of document.querySelectorAll("tr")) {
+  getCertificateRowDOMObject(cert) {
+    let row = document.createElement("tr");
+    row.innerHTML = this._certificateRowTemplate(cert);
+    row.dataset["nickname"] = cert.nickname;
+
+    for(let toggler of row.querySelectorAll(".toggleButton")) {
       toggler.addEventListener("click", (e) => {
         let certNickname = e.target.parentNode.parentNode.dataset.nickname,
             cert = this._certs.getCertByNickname(certNickname),
             bit = e.target.dataset.bit;
+        e.preventDefault();
         console.dir({certNickname, cert, bit});
       });
     }
+
+    return row;
   }
 }
 
-window.certs = new CACertificates();
-window.ui = new UI(certs);
-
 document.addEventListener("DOMContentLoaded", function() {
+  window.certs = new CACertificates();
+  window.ui = new UI(certs);
+
   ui.populateTable();
 });

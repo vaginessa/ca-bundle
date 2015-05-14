@@ -40,21 +40,19 @@
     <script src="js/handlebars-v3.0.3.js"></script>
     <script type="application/javascript;version=1.7" src="js/main.js"></script>
 
-    <script id="certificate-template" type="text/x-handlebars-template">
-      <tr data-nickname="{{nickname}}">
-        <td>
-          {{tableTitle}}<br>
-          <span>{{issuerName}}</span>
-        </td>
-        <td>{{tokenName}}</td>
-        <td>
-          <a class="toggleButton" href="#none" data-bit="none">[None]</a>
-          <a class="toggleButton on" href="#ssl" data-bit="ssl">[SSL]</a>
-          <a class="toggleButton off" href="#mail" data-bit="mail">[MAIL]</a>
-          <a class="toggleButton on" href="#objsign" data-bit="objsign">[OBJSIGN]</a>
-          <a class="toggleButton" href="#all" data-bit="all">[All]</a>
-        </td>
-      </tr>
+    <script id="certificate-row-template" type="text/x-handlebars-template">
+      <td>
+        {{tableTitle}}<br>
+        <span>{{issuerName}}</span>
+      </td>
+      <td>{{tokenName}}</td>
+      <td>
+        <a class="toggleButton" href="#none" data-bit="none">[None]</a>
+        <a class="toggleButton {{#if this.trustBits.ssl}}on{{else}}off{{/if}}" href="#ssl" data-bit="ssl">[SSL]</a>
+        <a class="toggleButton {{#if this.trustBits.ssl}}on{{else}}off{{/if}}" href="#mail" data-bit="mail">[MAIL]</a>
+        <a class="toggleButton {{#if this.trustBits.ssl}}on{{else}}off{{/if}}" href="#objsign" data-bit="objsign">[OBJSIGN]</a>
+        <a class="toggleButton" href="#all" data-bit="all">[All]</a>
+      </td>
     </script>
   </head>
   <body>
