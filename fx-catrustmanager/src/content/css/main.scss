@@ -19,9 +19,12 @@ table {
   padding: 0 2px;
   text-decoration: none;
 
-  &.on { color: #3c0; }
-  &.off { color: #f00; }
+  &.on { color: #1cb841; }
+  &.off { color: #Ca3c3c; }
 }
+
+.button-success { background: #1cb841; color: #fff; }
+.button-error { background: #Ca3c3c; color: #fff; }
 
 #functions {
   background-color: #191818;
@@ -31,12 +34,32 @@ table {
   position: fixed;
   width: 100%;
 
-  form {
+  .function-group {
     box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    height: 38px;
     padding: 0 1em;
-    width: 50%;
 
-    &#bulk { text-align: right; }
-    &#filter { text-align: left; }
+    &#filter {
+      text-align: left;
+      width: 33.33%;
+    }
+
+    &#bulk {
+      padding: 0.35em 1em 0.75em;
+      text-align: right;
+      width: 66.66%;
+
+      .button-group {
+        display: inline-block;
+        padding-left: 0.5em;
+
+        .pure-button {
+          float: left;
+          margin-right: 4px;
+        }
+      }
+    }
   }
 }

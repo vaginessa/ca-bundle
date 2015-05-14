@@ -45,7 +45,7 @@
       <tbody></tbody>
     </table>
     <nav id="functions">
-      <form class="pure-form" id="filter">
+      <form class="pure-form function-group" id="filter">
         <fieldset>
           <button type="submit" class="pure-button pure-button-primary" id="refresh">Refresh</button>
           <label for="only-trusted">
@@ -54,6 +54,21 @@
           </label>
         </fieldset>
       </form>
+      <div class="function-group" id="bulk">
+        <div class="button-group">
+          <a href="#exportJson" class="pure-button">Export JSON</a>
+          <a href="#importJson" class="pure-button">Import JSON</a>
+        </div>
+        <div class="button-group">
+          <a href="#listSsl" class="pure-button">SSL CA list</a>
+          <a href="#listMail" class="pure-button">Mail CA list</a>
+          <a href="#listObjsign" class="pure-button">Objsign CA list</a>
+        </div>
+        <div class="button-group">
+          <a href="#distrustAll" class="pure-button button-error">Distrust all</a>
+          <a href="#trustAll" class="pure-button button-success">Trust all</a>
+        </div>
+      </div>
     </nav>
   </body>
 </html>
