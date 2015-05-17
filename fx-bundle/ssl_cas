@@ -46,15 +46,15 @@ GlobalSign Root CA
 GlobalSign Root CA - R2
 GlobalSign Root CA - R3
 Go Daddy Class 2 CA
+Go Daddy Root Certificate Authority - G2
 IdenTrust Commercial Root CA 1
 IdenTrust Public Sector Root CA 1
+Network Solutions Certificate Authority
 RSA Security 2048 v3
 S-TRUST Authentication and Encryption Root CA 2005 PN
 S-TRUST Universal Root CA
 Secure Global CA
 SecureTrust CA
-Sonera Class 1 Root CA
-Sonera Class 2 Root CA
 Starfield Class 2 CA
 Starfield Root Certificate Authority - G2
 Starfield Services Root Certificate Authority - G2
@@ -71,6 +71,14 @@ TeliaSonera Root CA v1
 thawte Primary Root CA
 thawte Primary Root CA - G2
 thawte Primary Root CA - G3
+Trustis FPS Root CA
+USERTrust ECC Certification Authority
+USERTrust RSA Certification Authority
+USERTrust-temporary-intermediate-after-1024bit-removal
+UTN DATACorp SGC Root CA
+UTN USERFirst Email Root CA
+UTN USERFirst Hardware Root CA
+UTN USERFirst Object Root CA
 Verisign Class 1 Public Primary Certification Authority
 Verisign Class 1 Public Primary Certification Authority - G2
 Verisign Class 1 Public Primary Certification Authority - G3
