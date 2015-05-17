@@ -1,0 +1,866 @@
+[
+  {
+    "nickname": "Builtin Object Token:A-Trust-nQual-03",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:AC Raíz Certicámara S.A.",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:ACCVRAIZ1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:ACEDICOM Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Actalis Authentication Root CA",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:AddTrust External Root",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:AddTrust Low-Value Services Root",
+    "trustValue": 3
+  },
+  {
+    "nickname": "Builtin Object Token:AddTrust Public Services Root",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:AddTrust Qualified Certificates Root",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:AffirmTrust Commercial",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:AffirmTrust Networking",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:AffirmTrust Premium",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:AffirmTrust Premium ECC",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:ApplicationCA - Japanese Government",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Atos TrustedRoot 2011",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Autoridad de Certificacion Firmaprofesional CIF A62634068",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Baltimore CyberTrust Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus Global Trustee",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus GMail",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus Google",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus live.com",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus Mozilla Addons",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus Skype",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus Yahoo 1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus Yahoo 2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Bogus Yahoo 3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Buypass Class 2 CA 1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Buypass Class 2 Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Buypass Class 3 CA 1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Buypass Class 3 Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "CA Cert Signing Authority - Root CA",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:CA Disig",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:CA Disig Root R1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:CA Disig Root R2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "CAcert Class 3 Root - Root CA",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:Camerfirma Chambers of Commerce Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Camerfirma Global Chambersign Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Certigna",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Certinomis - Autorité Racine",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Certplus Class 2 Primary CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:certSIGN ROOT CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Certum Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Certum Trusted Network CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:CFCA EV ROOT",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Chambers of Commerce Root - 2008",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:China Internet Network Information Center EV Certificates Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:CNNIC ROOT",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Comodo AAA Services root",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:COMODO Certification Authority",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:COMODO ECC Certification Authority",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:COMODO RSA Certification Authority",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Comodo Secure Services root",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Comodo Trusted Services root",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:ComSign CA",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:ComSign Secured CA",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:Cybertrust Global Root",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:D-TRUST Root Class 3 CA 2 2009",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:D-TRUST Root Class 3 CA 2 EV 2009",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Deutsche Telekom Root CA 2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:DigiCert Assured ID Root CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:DigiCert Assured ID Root G2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:DigiCert Assured ID Root G3",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:DigiCert Global Root CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:DigiCert Global Root G2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:DigiCert Global Root G3",
+    "trustValue": 7
+  },
+  {
+    "nickname": "DigiCert High Assurance CA-3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "DigiCert High Assurance EV CA-1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:DigiCert High Assurance EV Root CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "DigiCert Secure Server CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "DigiCert SHA2 Extended Validation Server CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "DigiCert SHA2 High Assurance Server CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "DigiCert SHA2 Secure Server CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:DigiCert Trusted Root G4",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Digital Signature Trust Co. Global CA 1",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Digital Signature Trust Co. Global CA 3",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:DST ACES CA X6",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:DST Root CA X3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:E-Tugra Certification Authority",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:EBG Elektronik Sertifika Hizmet Sağlayıcısı",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:EC-ACC",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:EE Certification Centre Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Entrust Root Certification Authority",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Entrust Root Certification Authority - EC1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Entrust Root Certification Authority - G2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Entrust.net Premium 2048 Secure Server CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:ePKI Root Certification Authority",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Equifax Secure CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Equifax Secure eBusiness CA 1",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Equifax Secure Global eBusiness CA",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrust DigiNotar Cyber CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrust DigiNotar Cyber CA 2nd",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrust DigiNotar Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrust DigiNotar Services 1024 CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrusted DigiNotar PKIoverheid",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrusted DigiNotar PKIoverheid G2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrusted Malaysian Digicert Sdn. Bhd. (cyb)",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrusted Malaysian Digicert Sdn. Bhd. (en)",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Explicitly Distrusted MCSHOLDING CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "forty-two CA - forty-two CA",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:GeoTrust Global CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GeoTrust Global CA 2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GeoTrust Primary Certification Authority",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:GeoTrust Primary Certification Authority - G2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GeoTrust Primary Certification Authority - G3",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GeoTrust Universal CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GeoTrust Universal CA 2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Global Chambersign Root - 2008",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GlobalSign ECC Root CA - R4",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GlobalSign ECC Root CA - R5",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GlobalSign Root CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GlobalSign Root CA - R2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:GlobalSign Root CA - R3",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Go Daddy Class 2 CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Go Daddy Root Certificate Authority - G2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Go Daddy Secure Certificate Authority - G2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Google Internet Authority G2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Hellenic Academic and Research Institutions RootCA 2011",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Hongkong Post Root CA 1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:IdenTrust Commercial Root CA 1",
+    "trustValue": 3
+  },
+  {
+    "nickname": "Builtin Object Token:IdenTrust Public Sector Root CA 1",
+    "trustValue": 3
+  },
+  {
+    "nickname": "Builtin Object Token:IGC/A",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Izenpe.com",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Juur-SK",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:MD5 Collisions Forged Rogue CA 25c3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Microsec e-Szigno Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Microsec e-Szigno Root CA 2009",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:NetLock Arany (Class Gold) Főtanúsítvány",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:NetLock Business (Class B) Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:NetLock Express (Class C) Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:NetLock Notary (Class A) Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:NetLock Qualified (Class QA) Root",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Network Solutions Certificate Authority",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:OISTE WISeKey Global Root GA CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:PSCProcert",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:QuoVadis Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:QuoVadis Root CA 1 G3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:QuoVadis Root CA 2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:QuoVadis Root CA 2 G3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:QuoVadis Root CA 3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:QuoVadis Root CA 3 G3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "RapidSSL CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Root CA Generalitat Valenciana",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:RSA Security 2048 v3",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:S-TRUST Authentication and Encryption Root CA 2005 PN",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:S-TRUST Universal Root CA",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Secure Global CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:SecureSign RootCA11",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:SecureTrust CA",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:Security Communication EV RootCA1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Security Communication Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Security Communication RootCA2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:SG TRUST SERVICES RACINE",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Sonera Class 1 Root CA",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Sonera Class 2 Root CA",
+    "trustValue": 3
+  },
+  {
+    "nickname": "Builtin Object Token:Staat der Nederlanden EV Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Staat der Nederlanden Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Staat der Nederlanden Root CA - G2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Staat der Nederlanden Root CA - G3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Starfield Class 2 CA",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Starfield Root Certificate Authority - G2",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:Starfield Services Root Certificate Authority - G2",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:StartCom Certification Authority",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:StartCom Certification Authority",
+    "trustValue": 3
+  },
+  {
+    "nickname": "Builtin Object Token:StartCom Certification Authority G2",
+    "trustValue": 3
+  },
+  {
+    "nickname": "Builtin Object Token:Swisscom Root CA 1",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Swisscom Root CA 2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Swisscom Root EV CA 2",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:SwissSign Gold CA - G2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:SwissSign Platinum CA - G2",
+    "trustValue": 6
+  },
+  {
+    "nickname": "Builtin Object Token:SwissSign Silver CA - G2",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:T-TeleSec GlobalRoot Class 2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:T-TeleSec GlobalRoot Class 3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Taiwan GRCA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TC TrustCenter Class 2 CA II",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TC TrustCenter Class 3 CA II",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TC TrustCenter Universal CA I",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TC TrustCenter Universal CA III",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TeliaSonera Root CA v1",
+    "trustValue": 3
+  },
+  {
+    "nickname": "Builtin Object Token:thawte Primary Root CA",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:thawte Primary Root CA - G2",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:thawte Primary Root CA - G3",
+    "trustValue": 5
+  },
+  {
+    "nickname": "Builtin Object Token:Trustis FPS Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TURKTRUST Certificate Services Provider Root 1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TURKTRUST Certificate Services Provider Root 2",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TURKTRUST Certificate Services Provider Root 2007",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TWCA Global Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TWCA Root Certification Authority",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TÜBİTAK UEKAE Kök Sertifika Hizmet Sağlayıcısı - Sürüm 3",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:USERTrust ECC Certification Authority",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:USERTrust RSA Certification Authority",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:USERTrust-temporary-intermediate-after-1024bit-removal",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:UTN DATACorp SGC Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:UTN USERFirst Email Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:UTN USERFirst Hardware Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:UTN USERFirst Object Root CA",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:UTN-USER First-Network Applications",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 1 Public Primary Certification Authority",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 1 Public Primary Certification Authority - G2",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 1 Public Primary Certification Authority - G3",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 2 Public Primary Certification Authority - G2",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 2 Public Primary Certification Authority - G3",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 3 Public Primary Certification Authority",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 3 Public Primary Certification Authority",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 3 Public Primary Certification Authority - G2",
+    "trustValue": 2
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 3 Public Primary Certification Authority - G3",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:VeriSign Class 3 Public Primary Certification Authority - G4",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:VeriSign Class 3 Public Primary Certification Authority - G5",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:Verisign Class 4 Public Primary Certification Authority - G3",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:VeriSign Universal Root Certification Authority",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:VeriSign-C3SSA-G2-temporary-intermediate-after-1024bit-removal",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Verizon Akamai SureServer CA G14-SHA1",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Visa eCommerce Root",
+    "trustValue": 7
+  },
+  {
+    "nickname": "Builtin Object Token:WellsSecure Public Root Certificate Authority",
+    "trustValue": 1
+  },
+  {
+    "nickname": "Builtin Object Token:WoSign",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:WoSign China",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:XRamp Global CA Root",
+    "trustValue": 0
+  }
+]
