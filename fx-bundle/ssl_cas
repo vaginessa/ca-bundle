@@ -1,4 +1,3 @@
-Actalis Authentication Root CA
 AddTrust External Root
 AddTrust Low-Value Services Root
 AddTrust Public Services Root
@@ -31,7 +30,7 @@ Digital Signature Trust Co. Global CA 3
 Equifax Secure CA
 Equifax Secure eBusiness CA 1
 Equifax Secure Global eBusiness CA
-forty-two CA - forty-two CA
+forty-two Root CA - forty-two CA
 GeoTrust Global CA
 GeoTrust Global CA 2
 GeoTrust Primary Certification Authority
