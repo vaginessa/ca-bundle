@@ -1,13 +1,5 @@
 [
   {
-    "nickname": "42quadrat.de",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Builtin Object Token:A-Trust-nQual-03",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:AC Raíz Certicámara S.A.",
     "trustValue": 0
   },
@@ -54,10 +46,6 @@
   {
     "nickname": "Builtin Object Token:AffirmTrust Premium ECC",
     "trustValue": 1
-  },
-  {
-    "nickname": "AlphaSSL CA - SHA256 - G2",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:ApplicationCA - Japanese Government",
@@ -120,10 +108,6 @@
     "trustValue": 0
   },
   {
-    "nickname": "Builtin Object Token:Buypass Class 3 CA 1",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:Buypass Class 3 Root CA",
     "trustValue": 0
   },
@@ -144,6 +128,10 @@
     "trustValue": 0
   },
   {
+    "nickname": "Builtin Object Token:CA WoSign ECC Root",
+    "trustValue": 0
+  },
+  {
     "nickname": "CAcert Class 3 Root - Root CA",
     "trustValue": 1
   },
@@ -156,12 +144,20 @@
     "trustValue": 0
   },
   {
+    "nickname": "Builtin Object Token:Certification Authority of WoSign G2",
+    "trustValue": 0
+  },
+  {
     "nickname": "Builtin Object Token:Certigna",
     "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:Certinomis - Autorité Racine",
     "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:Certinomis - Root CA",
+    "trustValue": 1
   },
   {
     "nickname": "Builtin Object Token:Certplus Class 2 Primary CA",
@@ -208,20 +204,8 @@
     "trustValue": 7
   },
   {
-    "nickname": "COMODO High-Assurance Secure Server CA",
-    "trustValue": 0
-  },
-  {
-    "nickname": "COMODO RSA Certification Authority",
+    "nickname": "Builtin Object Token:COMODO RSA Certification Authority",
     "trustValue": 7
-  },
-  {
-    "nickname": "COMODO RSA Domain Validation Secure Server CA",
-    "trustValue": 0
-  },
-  {
-    "nickname": "COMODO RSA Organization Validation Secure Server CA",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:Comodo Secure Services root",
@@ -244,19 +228,11 @@
     "trustValue": 1
   },
   {
-    "nickname": "Cybertrust Public SureServer SV CA",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:D-TRUST Root Class 3 CA 2 2009",
     "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:D-TRUST Root Class 3 CA 2 EV 2009",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Dennis Schubert's Root CA ID",
     "trustValue": 0
   },
   {
@@ -300,10 +276,6 @@
     "trustValue": 7
   },
   {
-    "nickname": "DigiCert Secure Server CA",
-    "trustValue": 0
-  },
-  {
     "nickname": "DigiCert SHA2 Extended Validation Server CA",
     "trustValue": 0
   },
@@ -320,20 +292,12 @@
     "trustValue": 7
   },
   {
-    "nickname": "Builtin Object Token:Digital Signature Trust Co. Global CA 1",
-    "trustValue": 2
-  },
-  {
-    "nickname": "Builtin Object Token:Digital Signature Trust Co. Global CA 3",
-    "trustValue": 2
-  },
-  {
     "nickname": "Builtin Object Token:DST ACES CA X6",
-    "trustValue": 0
+    "trustValue": 1
   },
   {
     "nickname": "Builtin Object Token:DST Root CA X3",
-    "trustValue": 0
+    "trustValue": 1
   },
   {
     "nickname": "Builtin Object Token:E-Tugra Certification Authority",
@@ -384,10 +348,6 @@
     "trustValue": 2
   },
   {
-    "nickname": "EssentialSSL CA",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:Explicitly Distrust DigiNotar Cyber CA",
     "trustValue": 0
   },
@@ -432,18 +392,6 @@
     "trustValue": 0
   },
   {
-    "nickname": "Gandi Standard SSL CA",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Gandi Standard SSL CA 2",
-    "trustValue": 0
-  },
-  {
-    "nickname": "GeoTrust Extended Validation SHA256 SSL CA",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:GeoTrust Global CA",
     "trustValue": 7
   },
@@ -480,24 +428,12 @@
     "trustValue": 7
   },
   {
-    "nickname": "GlobalSign Domain Validation CA - SHA256 - G2",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:GlobalSign ECC Root CA - R4",
     "trustValue": 7
   },
   {
     "nickname": "Builtin Object Token:GlobalSign ECC Root CA - R5",
     "trustValue": 7
-  },
-  {
-    "nickname": "GlobalSign Organization Validation CA - G2",
-    "trustValue": 0
-  },
-  {
-    "nickname": "GlobalSign Organization Validation CA - SHA256 - G2",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:GlobalSign Root CA",
@@ -518,14 +454,6 @@
   {
     "nickname": "Builtin Object Token:Go Daddy Root Certificate Authority - G2",
     "trustValue": 5
-  },
-  {
-    "nickname": "Go Daddy Secure Certificate Authority - G2",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Go Daddy Secure Certification Authority",
-    "trustValue": 0
   },
   {
     "nickname": "Google Internet Authority G2",
@@ -557,6 +485,10 @@
   },
   {
     "nickname": "Builtin Object Token:Juur-SK",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Let's Encrypt Authority X1",
     "trustValue": 0
   },
   {
@@ -600,12 +532,8 @@
     "trustValue": 0
   },
   {
-    "nickname": "Oracle SSL CA - G2",
-    "trustValue": 0
-  },
-  {
-    "nickname": "PositiveSSL CA 2",
-    "trustValue": 0
+    "nickname": "Builtin Object Token:OISTE WISeKey Global Root GB CA",
+    "trustValue": 7
   },
   {
     "nickname": "Builtin Object Token:PSCProcert",
@@ -633,14 +561,6 @@
   },
   {
     "nickname": "Builtin Object Token:QuoVadis Root CA 3 G3",
-    "trustValue": 0
-  },
-  {
-    "nickname": "RapidSSL CA",
-    "trustValue": 0
-  },
-  {
-    "nickname": "RapidSSL SHA256 CA - G3",
     "trustValue": 0
   },
   {
@@ -684,10 +604,6 @@
     "trustValue": 0
   },
   {
-    "nickname": "Builtin Object Token:SG TRUST SERVICES RACINE",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:Sonera Class 1 Root CA",
     "trustValue": 0
   },
@@ -720,16 +636,8 @@
     "trustValue": 5
   },
   {
-    "nickname": "Starfield Secure Certificate Authority - G2",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:Starfield Services Root Certificate Authority - G2",
     "trustValue": 5
-  },
-  {
-    "nickname": "StartCom Certification Authority",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:StartCom Certification Authority",
@@ -742,26 +650,6 @@
   {
     "nickname": "Builtin Object Token:StartCom Certification Authority G2",
     "trustValue": 7
-  },
-  {
-    "nickname": "StartCom Class 1 Primary Intermediate Client CA - StartCom Ltd.",
-    "trustValue": 0
-  },
-  {
-    "nickname": "StartCom Class 1 Primary Intermediate Server CA",
-    "trustValue": 0
-  },
-  {
-    "nickname": "StartCom Class 1 Primary Intermediate Server CA",
-    "trustValue": 0
-  },
-  {
-    "nickname": "StartCom Class 2 Primary Intermediate Server CA",
-    "trustValue": 0
-  },
-  {
-    "nickname": "startssl2013@dennis-schubert.de's StartCom Ltd. ID",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:Swisscom Root CA 1",
@@ -788,18 +676,6 @@
     "trustValue": 7
   },
   {
-    "nickname": "Symantec Class 3 EV SSL CA - G2",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Symantec Class 3 EV SSL CA - G3",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Symantec Class 3 Secure Server CA - G4",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:T-TeleSec GlobalRoot Class 2",
     "trustValue": 0
   },
@@ -812,32 +688,12 @@
     "trustValue": 0
   },
   {
-    "nickname": "Builtin Object Token:TC TrustCenter Class 2 CA II",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:TC TrustCenter Class 3 CA II",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Builtin Object Token:TC TrustCenter Universal CA I",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Builtin Object Token:TC TrustCenter Universal CA III",
     "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:TeliaSonera Root CA v1",
     "trustValue": 3
-  },
-  {
-    "nickname": "thawte DV SSL CA - G2",
-    "trustValue": 0
-  },
-  {
-    "nickname": "thawte EV SSL CA - G2",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:thawte Primary Root CA",
@@ -852,28 +708,8 @@
     "trustValue": 5
   },
   {
-    "nickname": "Thawte SSL CA",
-    "trustValue": 0
-  },
-  {
-    "nickname": "thawte SSL CA - G2",
-    "trustValue": 0
-  },
-  {
-    "nickname": "TrustID Server CA A52",
-    "trustValue": 0
-  },
-  {
     "nickname": "Builtin Object Token:Trustis FPS Root CA",
     "trustValue": 3
-  },
-  {
-    "nickname": "Builtin Object Token:TURKTRUST Certificate Services Provider Root 1",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Builtin Object Token:TURKTRUST Certificate Services Provider Root 2",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:TURKTRUST Certificate Services Provider Root 2007",
@@ -892,20 +728,20 @@
     "trustValue": 0
   },
   {
+    "nickname": "Builtin Object Token:TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı H5",
+    "trustValue": 0
+  },
+  {
+    "nickname": "Builtin Object Token:TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı H6",
+    "trustValue": 0
+  },
+  {
     "nickname": "Builtin Object Token:USERTrust ECC Certification Authority",
     "trustValue": 1
   },
   {
-    "nickname": "USERTrust RSA Certification Authority",
-    "trustValue": 1
-  },
-  {
-    "nickname": "Builtin Object Token:USERTrust-temporary-intermediate-after-1024bit-removal",
-    "trustValue": 1
-  },
-  {
-    "nickname": "Builtin Object Token:UTN DATACorp SGC Root CA",
-    "trustValue": 1
+    "nickname": "Builtin Object Token:USERTrust RSA Certification Authority",
+    "trustValue": 7
   },
   {
     "nickname": "Builtin Object Token:UTN USERFirst Email Root CA",
@@ -918,10 +754,6 @@
   {
     "nickname": "Builtin Object Token:UTN USERFirst Object Root CA",
     "trustValue": 1
-  },
-  {
-    "nickname": "Builtin Object Token:UTN-USER First-Network Applications",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:Verisign Class 1 Public Primary Certification Authority",
@@ -942,10 +774,6 @@
   {
     "nickname": "Builtin Object Token:Verisign Class 2 Public Primary Certification Authority - G3",
     "trustValue": 2
-  },
-  {
-    "nickname": "VeriSign Class 3 Extended Validation SSL SGC CA",
-    "trustValue": 0
   },
   {
     "nickname": "Builtin Object Token:Verisign Class 3 Public Primary Certification Authority",
@@ -972,27 +800,11 @@
     "trustValue": 7
   },
   {
-    "nickname": "VeriSign Class 3 Secure Server CA - G3",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Builtin Object Token:Verisign Class 4 Public Primary Certification Authority - G3",
-    "trustValue": 7
-  },
-  {
     "nickname": "Builtin Object Token:VeriSign Universal Root Certification Authority",
     "trustValue": 7
   },
   {
     "nickname": "Builtin Object Token:VeriSign-C3SSA-G2-temporary-intermediate-after-1024bit-removal",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Verizon Akamai SureServer CA G14-SHA1",
-    "trustValue": 0
-  },
-  {
-    "nickname": "Verizon Public SureServer EV SSL CA G14-SHA2",
     "trustValue": 0
   },
   {

@@ -8,6 +8,7 @@ AffirmTrust Premium
 AffirmTrust Premium ECC
 CA Cert Signing Authority - Root CA
 CAcert Class 3 Root - Root CA
+Certinomis - Root CA
 Comodo AAA Services root
 COMODO Certification Authority
 COMODO ECC Certification Authority
@@ -25,8 +26,8 @@ DigiCert Global Root G2
 DigiCert Global Root G3
 DigiCert High Assurance EV Root CA
 DigiCert Trusted Root G4
-Digital Signature Trust Co. Global CA 1
-Digital Signature Trust Co. Global CA 3
+DST ACES CA X6
+DST Root CA X3
 Equifax Secure CA
 Equifax Secure eBusiness CA 1
 Equifax Secure Global eBusiness CA
@@ -49,6 +50,7 @@ Go Daddy Root Certificate Authority - G2
 IdenTrust Commercial Root CA 1
 IdenTrust Public Sector Root CA 1
 Network Solutions Certificate Authority
+OISTE WISeKey Global Root GB CA
 RSA Security 2048 v3
 S-TRUST Authentication and Encryption Root CA 2005 PN
 S-TRUST Universal Root CA
@@ -73,8 +75,6 @@ thawte Primary Root CA - G3
 Trustis FPS Root CA
 USERTrust ECC Certification Authority
 USERTrust RSA Certification Authority
-USERTrust-temporary-intermediate-after-1024bit-removal
-UTN DATACorp SGC Root CA
 UTN USERFirst Email Root CA
 UTN USERFirst Hardware Root CA
 UTN USERFirst Object Root CA
@@ -89,7 +89,6 @@ Verisign Class 3 Public Primary Certification Authority - G2
 Verisign Class 3 Public Primary Certification Authority - G3
 VeriSign Class 3 Public Primary Certification Authority - G4
 VeriSign Class 3 Public Primary Certification Authority - G5
-Verisign Class 4 Public Primary Certification Authority - G3
 VeriSign Universal Root Certification Authority
 Visa eCommerce Root
 WellsSecure Public Root Certificate Authority
